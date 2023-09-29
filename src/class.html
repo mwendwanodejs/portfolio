@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xtranet University: Html, Javascript, Netscape, Microsoft and SoftQuad Training</title>
+    <style>
+        body {
+            color: white;
+            background-color: blueviolet;
+        }
+        .header {
+            width: fit-content;
+        }
+        .inline {
+            display: flex;
+            flex-direction: row;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="inline">
+        <figure>
+            <img src="https://students.spu.ac.ke/images/Logo.jpg" alt="St Paul's University"/>
+            <figcaption>fig 1.1 St Paul's university logo</figcaption>
+        </figure>
+        <h1>St Paul's University</h1>
+    </div>
+
+
+    <div class="header">
+        <h2>Units Taken (unordered)</h2>
+        <hr>
+    </div>
+
+    <ul >
+        <li> Xml Web Technologies</li>
+        <li> Computer Science Project Proposal</li>
+    </ul>
+
+    <div class="header">
+        <h2>Days Of The Week (ordered)</h2>
+        <hr>
+    </div>
+
+    <ol>
+        <li> Monday </li>
+        <li> Tuesday </li>
+    </ol>
+
+    <div class="header">
+        <h2>Course Taken (definition)</h2>
+        <hr>
+    </div>
+
+    <dl>
+        <dt> Computer Science </dt>
+        <dd> Software Development Stuff </dd>
+
+        <dt> Nursing </dt>
+        <dd> Clinical health care </dd>
+    </dl>
+
+    <table border="1">
+        <caption>
+            Cool what is new in html 5
+        </caption>
+
+         <thead>
+             <tr>
+                 <th>TIME TABLE</th>
+             </tr>
+         </thead>
+
+        <tbody>
+            <tr>
+                <th>
+                    Unit
+                </th>
+                <th>
+                    Time
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Xml Web Technologies
+                </td><td>
+                    5:30 - 7:00 pm
+                </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>
+                    <i>This is the foot</i>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <form method="post" action="#">
+        <label for="name">Full Name</label>
+        <input type="text" placeholder="Full Name" name="name" id="name">
+
+        <label for="avatar">Profile Photo</label>
+        <input type="file" name="avatar" id="avatar">
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="" name="password" id="password">
+
+        <label for="desc">Description</label>
+        <textarea placeholder="Short Bio" name="desc" id="desc"></textarea>
+
+
+    </form>
+
+
+
+<!--    <p>-->
+<!--        <b>The Boy is focused</b>-->
+<!--    </p>-->
+
+
+</body>
+</html>
